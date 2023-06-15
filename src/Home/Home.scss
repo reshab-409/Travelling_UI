@@ -71,15 +71,17 @@
 
 
         .cardDiv {
+            backdrop-filter: blur(10px);
+            background: linear-gradient(100deg, rgba(230, 222, 222, 0.2), rgba(204, 197, 197, 0.2));
             position: relative;
             padding: 2rem 1rem;
-            background: var(--whiteColor);
+            // background: var(--whiteColor);
             border-radius: 10px;
             gap: 1rem;
 
             label {
                 display: block;
-                color: var(--textColor);
+                color: var(--whiteColor);
                 padding-bottom: 10px;
                 font-size: 13px;
                 font-weight: 500;
@@ -90,7 +92,7 @@
                 align-items: center;
 
                 .total {
-                    color: var(--blackColor);
+                    color: var(--whiteColor);
                     font-size: 18px;
                     padding-bottom: 10px;
                 }
